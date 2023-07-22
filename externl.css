@@ -1,0 +1,279 @@
+*{margin: 0px;
+ padding: 0px;}
+body{background-color:#F3F1FF;
+     }
+/* header all style start  */
+header{ font-family: 'Poppins', sans-serif;
+       height: 57px;
+       width: 100%;
+       background:linear-gradient( rgba(45, 60, 231, 0.902) 10%, #562EFF 30%);
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       margin: 0px;
+      }
+header>nav{font-family: 'Poppins', sans-serif;
+           margin: 0px;
+           display: flex;
+           align-items: center;
+           justify-content: space-between;
+           width: 65%;
+          }
+header>nav ol{display:flex;
+              justify-content:center;
+              align-items:center;
+              list-style: none;
+              gap: 20px;
+              font-size: 14px;
+              color: white;
+              letter-spacing:.6px;
+              }           
+header>nav .ideap{gap:7px;}           
+.idea{font-size: 20px;
+      color: white;}
+    
+header>nav ol li{ padding: 0px;
+                 margin: 0px;
+                 font-size: 10px;
+                 color: rgba(255, 255, 255, 0.92);
+                 }       
+header>nav ol li img{width:30px;}                                 
+/* header all style end  */
+
+/* main all style css start */
+main{display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom:40px;
+      gap: 20px;}
+/* main all style css  End */
+
+.TopPlayerAndTopBlog{background-color:white;
+                     font-family: 'Poppins', sans-serif;
+                      margin-top:20px;
+                      width:62%;
+                      border-radius: 5px;
+                     padding:20px 20px 20px 20px;}
+       /*****************/
+.TopPlyer{display: grid;
+          grid-template-columns:repeat(3,1fr);
+          grid-template-rows:repeat(2,60px);
+          grid-gap:10px;
+          width: 100%;
+          margin-bottom:20px;
+        }
+.player{display:flex;
+    justify-content:start;
+    align-items: center;}
+.TopPlayerTitle>h1{font-size: 20px;
+                display:flex;
+                 align-items: center;
+                 margin-bottom:20px;
+                          color:#562EFF;
+                        }          
+.player>img{width:30%;}
+.player>.playerName{font-size:15px;
+              padding-left:10px;
+               font-weight:700;}
+
+
+
+  /* blog section all style start */
+  .TopBlog{display: grid;
+    font-family: 'Poppins', sans-serif;
+    grid-gap:10px;
+    grid-template-columns:repeat(2,1fr);
+    grid-template-rows:repeat(2,1fr);
+  }
+
+.TopBlogTitle>h1{
+      display:flex;
+      align-items: center;
+      margin-top: 20px;
+       margin-bottom:20px;
+          font-size:20px;
+          color:blue;
+        }      
+
+.Blog{ display:grid;
+        grid-template-columns:repeat(2,1fr);
+       grid-template-rows:(2fr 1fr);
+      }
+.Blog img{width:95%; 
+         grid-column:1;
+        grid-row:span 2;
+      }        
+
+.BlogDescription{
+  height: fit-content;
+  line-height:20px;
+  margin:0px;
+  font-size:14px;
+  font-weight: 700;
+  margin-top: 6px;
+  padding: 0px ;
+}
+
+.Blog>span{font-size: 11px;
+           color:gray;
+            font-size:11px;
+            line-height: 10px;
+          }  
+.Blog>span>b{color:#7757FF;
+         }  
+  /* blog section all style End */
+
+
+  /***********************laters Course style start************************/
+.LatesCourse{background-color: white;
+            width:62%;
+            font-family: 'Poppins', sans-serif;
+            border-radius:3px;}
+
+.CourseTitile{font-size:14px;
+           margin-bottom:16px;
+          color: blue;}
+
+.LatesCourse{
+  padding:20px;
+}
+.courseContaner{display:grid;
+                grid-gap:2%;
+                grid-template-columns:repeat(3,1fr);
+                grid-template-rows:repeat(1,1fr);}
+.PowerPointCard,
+.JsCard,
+.ReactCard{padding: 10px;
+          box-shadow:0px 0px 4px 1px rgba(128, 128, 128, 0.396);
+            background-color:white;
+          border-radius: 9px;}
+
+
+.ReactCard>img{width:100%;}
+.PowerPointCard>img{width:100%;}
+.JsCard>img{width:100%;}  
+
+.CardDescription{font-size: 13px;
+                 line-height: 19px;
+                 font-weight:700;}
+
+.CardRaterName{color:red;
+              font-size: 11px;}
+
+.RatingStarAndWatching{display:flex;}
+
+.starandrating{display: flex;
+              align-items:center;
+              flex-direction:row;}
+
+
+
+.starandrating>img{
+  display: flex;
+  flex-direction:row;
+  width:15%;
+  height: fit-content;
+  margin:0px;
+  padding: 0px;
+}
+
+.fa-solid.fa-star-half-stroke.icons{font-size:65%;}
+
+
+.RatingStarAndWatching .fourp{margin: 0px;
+   font-size: 72.5%;
+  padding-left:5px;  
+  padding-top:3px;}
+
+
+.watchtime{
+           margin-left:16px; 
+            margin-left:4%;
+              width: 30%;
+            display:flex;
+            gap: 6px;
+           align-items: center;
+           justify-content:center;
+          background-color: rgba(255, 99, 71, 0.276);
+           border-radius:15px;
+           padding:2px 17px 2px 10px;}
+.watchtime>img{width:40%;
+             }           
+.watchtime>b{font-size:80%;
+             color: #FF4B61;}
+
+  /* laters Course style End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* all Media quary Responsibe start */
+  /* @media screen and (max-width:1280px){
+    .player>img{width:20%;}
+  }
+  @media screen and (min-width:200px) and (max-width:450px) {
+    .TopPlayerAndTopBlog{background-color:white;
+      font-family: 'Poppins', sans-serif;
+       margin-top:20px;
+       width:90%;
+       border-radius: 5px;
+      padding:20px 20px 20px 20px;}
+    .TopPlyer{display: grid;
+      grid-template-columns:repeat(1,1fr);
+      grid-template-rows:repeat(1,60px);
+      grid-gap:10px;
+      width: 100%;
+      margin-bottom:20px;
+    } 
+   .player{display:flex;
+    align-items: center;}
+    .TopPlayerTitle>h1{font-size:15px;
+      display:flex;
+       align-items: center;
+                color:#562EFF;
+              }            
+    .player>img{width:14%;
+              }
+.player:first-child{height: fit-content;
+ margin-bottom:-10px;}                 
+
+.player:first-child>img{}
+
+  }
+
+ */
+
+
+
+
+
+
+  /* all Media quary Responsibe end */
